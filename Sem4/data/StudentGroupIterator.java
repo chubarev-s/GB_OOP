@@ -12,7 +12,6 @@ public class StudentGroupIterator implements Iterator<Student> {
         this.students = studentGroup.getStudents();
         this.counter = 0;
     }
-
     
 
     @Override

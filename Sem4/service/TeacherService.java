@@ -1,15 +1,15 @@
 package Sem4.service;
 
 import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.Iterator;
 import java.util.List;
 
 import Sem4.data.Student;
 import Sem4.data.StudentGroup;
-import Sem4.data.Teacher;
+
 import Sem4.data.User;
-import Sem4.data.UserComparator;
+
 
 public class TeacherService {
 

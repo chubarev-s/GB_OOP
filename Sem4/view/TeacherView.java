@@ -6,7 +6,8 @@ import java.util.logging.Logger;
 import Sem4.data.Teacher;
 import Sem4.data.Student;
 import Sem4.data.StudentGroup;
-import Sem4.view.*;
+
+
 
 public class TeacherView implements UserViewInterface<Teacher> {
        

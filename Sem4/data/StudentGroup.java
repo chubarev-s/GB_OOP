@@ -23,8 +23,13 @@ public class StudentGroup implements Iterable<Student>{
         return teacher;
     }
 
+    
     public void setTeacher(Teacher teacher) {
         this.teacher = teacher;
+    }
+
+    public void createTeacher(User user){
+        students.add((Student) user);
     }
 
     public void createStudent(User user){
