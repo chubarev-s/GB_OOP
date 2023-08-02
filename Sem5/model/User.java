@@ -5,7 +5,6 @@ public abstract class User {
     private String firstName;
     private String secondName;
     
-    
 
     public String getFirstName() {
         return firstName;
@@ -23,6 +22,7 @@ public abstract class User {
         this.secondName = secondName;
     }
 
+    
     public String getLastName() {
         return lastName;
     }
@@ -36,5 +36,6 @@ public abstract class User {
         this.secondName = secondName;
         this.lastName = lastName;
     }
-
 }
+
+
