@@ -3,6 +3,7 @@ package Sem4.data;
 import java.util.Comparator;
 //-------------------------------------------------------
 // Single Responsibility (Принцип единственной ответственности)
+// Данный класс отвечает только за одну, необходимую, операцию
 //-------------------------------------------------------
 public class UserComparator<T extends User> implements Comparator<T> {
     @Override

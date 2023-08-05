@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Comparator;
 //-------------------------------------------------------
 // Liskov Substitution (Принцип подстановки Барбары Лисков)
+// Teacher выдаёт тоже-самое что и User + дополнительные данные
 //-------------------------------------------------------
 public class Teacher extends User{
 

@@ -3,7 +3,9 @@ package Sem4.data;
 import java.time.LocalDate;
 //-------------------------------------------------------
 // Open-Closed (Принцип открытости-закрытости)
+//  Student модифицировали, используя два конструктора
 // Liskov Substitution (Принцип подстановки Барбары Лисков)
+//  Student выдаёт тоже-самое что и User + дополнительные данные
 //-------------------------------------------------------
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
