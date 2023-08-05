@@ -2,7 +2,9 @@ package Sem4.data;
 
 import java.time.LocalDate;
 import java.util.Comparator;
-
+//-------------------------------------------------------
+// Liskov Substitution (Принцип подстановки Барбары Лисков)
+//-------------------------------------------------------
 public class Teacher extends User{
 
     private Long teacherId;

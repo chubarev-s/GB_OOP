@@ -1,7 +1,10 @@
 package Sem4.data;
 
 import java.time.LocalDate;
-
+//-------------------------------------------------------
+// Open-Closed (Принцип открытости-закрытости)
+// Liskov Substitution (Принцип подстановки Барбары Лисков)
+//-------------------------------------------------------
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
 

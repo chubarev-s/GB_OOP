@@ -1,7 +1,9 @@
 package Sem4.data;
 
 import java.util.Comparator;
-
+//-------------------------------------------------------
+// Single Responsibility (Принцип единственной ответственности)
+//-------------------------------------------------------
 public class UserComparator<T extends User> implements Comparator<T> {
     @Override
     public int compare(T o1, T o2) {
